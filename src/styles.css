@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+:root {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: #e6e6e6;
+    height: 4000px;
+}

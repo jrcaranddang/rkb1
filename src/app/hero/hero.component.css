@@ -1,0 +1,30 @@
+#hero {
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    width: 100%;
+    max-width: 1800px;
+    height: 1199px;
+    max-height: calc((100vw - 6rem)/1.5);
+    
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+#hero-img {
+    width: calc(100%);
+    /*width: calc(100% - 6rem);*/
+    max-width: 1800px;
+    height: 1199px;
+    max-height: calc((100vw - 6rem)/1.5);
+    position: absolute;
+    top: 0;
+    z-index: -999;
+}
+
+#hero-btn:hover {
+    cursor: pointer;
+}
+.hero-content-text > h1, .hero-content-text > p {
+    text-align: center;
+}
