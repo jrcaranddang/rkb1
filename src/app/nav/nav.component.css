@@ -1,3 +1,45 @@
 #nav {
-    background: #e6e6e6;
+    /*background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0));*/
+    background: var(--primary-color);
+    border-bottom: 2px solid #333;
 }
+
+.nav-link {
+    color: var(--font-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 1rem;
+}
+
+
+
+
+    /*<nav id="nav" class="navbar sticky-top navbar-toggleable-md navbar-light bg-faded">*/
+    /*  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">*/
+    /*    <span class="navbar-toggler-icon"></span>*/
+    /*  </button>*/
+    /*  <a class="navbar-brand" href="#">*/
+    /*      <!--<img src="../../assets/images/logo.gif">-->*/
+    /*      Rancho Kitchen & Baths*/
+    /*  </a>*/
+    
+    /*  <div class="collapse navbar-collapse" id="navbarSupportedContent">*/
+    /*    <ul class="navbar-nav ml-auto">*/
+    /*      <li class="nav-item">*/
+    /*        <a class="nav-link" href="#">Services</a>*/
+    /*      </li>*/
+    /*      <li class="nav-item">*/
+    /*        <a class="nav-link" href="#">Gallery</a>*/
+    /*      </li>*/
+    /*      <li class="nav-item">*/
+    /*        <a class="nav-link" href="#">Showroom</a>*/
+    /*      </li>*/
+    /*      <li class="nav-item">*/
+    /*        <a class="nav-link" href="#">About us</a>*/
+    /*      </li>*/
+    /*      <li class="nav-item">*/
+    /*        <a class="nav-link" href="#">Contact us</a>*/
+    /*      </li>*/
+    /*    </ul>*/
+    /*  </div>*/
+    /*</nav>*/

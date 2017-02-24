@@ -1,9 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 :root {
-    font-family: "Montserrat", sans-serif;
+    /*font-family: "Montserrat", sans-serif !important;*/
+    font-family: Verdana, sans-serif !important;
+    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    
+    --primary-color: #fff;
+    --font-color: #333;
+    letter-spacing: 2px;
 }
 body {
     background: #e6e6e6;
-    height: 4000px;
+    height: 100%;
+    width: 100%;
+    color: var(--primary-color);
+}
+
+.box-shadow {
+    box-shadow: 0.1rem 0 1rem 0.1rem rgba(0,0,0,0.1),
+                -0.1rem 0 1rem 0.1rem rgba(0,0,0,0.1),
+                0 -0.1rem 1rem 0.1rem rgba(0,0,0,0.1);
+}
+
+.py-10vh {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.mt-1rem {
+    margin-top: 1rem;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #777;
+}
+
+h6 {
+    color: #999;
+}
+
+p {
+    color: #a1a1a1;
 }

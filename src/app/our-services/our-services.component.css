@@ -1,4 +1,64 @@
 #our-services {
     background: #fff;
-    min-height: 1000px;
+    color: var(--font-color);
+}
+
+#title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#content {
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+/*feature one*/
+#feature-one {
+    background: seashell;
+}
+
+.feature-content > div > h2 {
+    color: #777;
+}
+
+.feature-content > div > h6 {
+    color: #999;
+}
+
+.feature-content > div > p {
+    color: #a1a1a1;
+}
+
+/*feature two*/
+#feature-two {
+    background: #fff;
+    color: var(--font-color);
+}
+
+/*testimonials*/
+#testimonials {
+    background: #edf4f4;    
+}
+
+/*contact*/
+#contact {
+    background: url("../../assets/img/bg.jpg") center bottom no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    width: 100%;
+}
+
+/*footer*/
+#footer {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.footer-content > p {
+    color: #a1a1a1;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin-bottom: 0;
 }
