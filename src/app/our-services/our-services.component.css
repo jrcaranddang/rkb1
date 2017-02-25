@@ -18,6 +18,11 @@
     background: seashell;
 }
 
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
 .feature-content > div > h2 {
     color: #777;
 }
@@ -32,13 +37,22 @@
 
 /*feature two*/
 #feature-two {
-    background: #fff;
+    background: #fcfcfc;
     color: var(--font-color);
 }
 
 /*testimonials*/
 #testimonials {
-    background: #edf4f4;    
+    background: papayawhip;
+}
+
+.entry {
+    padding: 2rem 0;
+}
+
+.testimonial-img {
+    border: 2px solid #a7a5a6;
+    border-radius: 50%;
 }
 
 /*contact*/
@@ -47,6 +61,9 @@
     /*background-attachment: fixed;*/
     background-size: cover;
     width: 100%;
+}
+
+.form-input {
 }
 
 /*footer*/

@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*#dcc9bb gravelstone          gray-tan*/
+/*##c8c1af haven of coziness    gray-beige*/
+/*#e9e5dc full moon            white*/
+/*#63686c grizzle gray         dk gray*/
+/*#a7a5a6 grey stone           lt gray*/
+
 :root {
     /*font-family: "Montserrat", sans-serif !important;*/
     font-family: Verdana, sans-serif !important;
@@ -48,3 +55,4 @@ h6 {
 p {
     color: #a1a1a1;
 }
+
