@@ -1,4 +1,4 @@
-#our-services {
+#about {
     background: #fff;
     color: var(--font-color);
 }
@@ -43,7 +43,7 @@
 
 /*testimonials*/
 #testimonials {
-    background: papayawhip;
+    background: floralwhite;
 }
 
 .entry {
@@ -57,13 +57,14 @@
 
 /*contact*/
 #contact {
-    background: url("../../assets/img/bg.jpg") center bottom no-repeat;
+    background: url("../../assets/img/brooke-lark-93583.jpg") center bottom no-repeat;
     /*background-attachment: fixed;*/
     background-size: cover;
     width: 100%;
 }
 
-.form-input {
+.form-input, .form-text {
+    background: rgba(255,255,255,0.7);
 }
 
 /*footer*/

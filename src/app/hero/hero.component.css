@@ -44,8 +44,8 @@
 /**************************************************/
 
 #hero {
-    background: url("../../assets/img/city.jpg") center center no-repeat;
-    /*background: url("../../assets/images/succulentBlurBG.jpg") bottom right no-repeat;*/
+    background: url("../../assets/img/kitchen.jpg") center center no-repeat;
+    /*background: url("../../assets/img/city.jpg") center center no-repeat;*/
     background-attachment: fixed;
     background-size: cover;
     min-height: calc(100vh - 2.5rem);
