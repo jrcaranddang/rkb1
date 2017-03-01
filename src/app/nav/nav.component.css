@@ -5,6 +5,13 @@
     border-bottom: 1px solid #333;
 }
 
+.navbar-brand {
+    text-decoration: none;
+    color: var(--font-color);
+    /*letter-spacing: 2px;*/
+    text-transform: uppercase;
+}
+
 .nav-link {
     color: var(--font-color);
     letter-spacing: 2px;
