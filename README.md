@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 **************************************************************************
 **update node for angular cli compatibility
-    npm install 6
+    nvm install 6
     nvm alias default v6.9.5
     
 **update npm for angular cli compatibility
